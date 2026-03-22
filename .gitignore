@@ -1,0 +1,10 @@
+*.env
+*.key
+*.pem
+*.secret
+*.log
+*.tmp
+*.bak
+*.swp
+docker-compose.override.yml
+.DS_Store
