@@ -14,4 +14,5 @@ services:
 
     app:
         image: alpine:latest
+        container_name: app
         command: sh -c "while true; do echo 'HTTP/1.1 200 OK\n\nHello from App' | nc -l -p 8000; done"

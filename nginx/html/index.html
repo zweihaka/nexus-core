@@ -1,1 +1,38 @@
-<h1>Nexus-Core: System Online.</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nexus-Core System</title>
+    <style>
+        /* CSS Reset: убираем лишнее, задаем базу */
+        body { 
+            font-family: 'Courier New', Courier, monospace; 
+            background: #0d1117; 
+            color: #c9d1d9; 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            height: 100vh; 
+            margin: 0; 
+        }
+        .container { 
+            text-align: center; 
+            border: 1px solid #30363d; 
+            padding: 2rem; 
+            border-radius: 8px; 
+            background: #161b22; 
+        }
+        h1 { color: #58a6ff; }
+        .status { color: #3fb950; font-weight: bold; }
+        code { background: #30363d; padding: 2px 4px; border-radius: 4px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Nexus-Core</h1>
+        <p>System Status: <span class="status">ONLINE</span></p>
+        <p>Infrastructure: <code>Containerized</code></p>
+        <p>Node: <code>Debian-Production</code></p>
+    </div>
+</body>
+</html>
